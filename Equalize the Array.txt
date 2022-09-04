@@ -1,0 +1,68 @@
+#include<stdio.h>
+#include<iostream>
+#include <cstring>
+#include<math.h>
+using namespace std;
+
+
+
+int main(){
+    
+    
+int n,j=0,cnt2=0,t=0,a,b,c=100,k=0,n1=0,n2,sav,e,score,index=0,s=0;
+    int x[100000],y[100000],z[2000];
+
+    int min=1000,mins=1000;
+
+     int max=0;
+
+     
+    int sum=0;
+
+    long long int cnt1=0,d,i,cnt=0;
+
+
+    float r=0.0;
+    
+//    printf("enter value");
+    scanf("%d",&n);
+    
+    for(i=0;i<n;i++){
+        
+        scanf("%d",&x[i]);
+    
+        
+    }
+    
+    
+    for(i=0;i<n;i++){
+        
+        s=x[i];
+        
+        y[s]=y[s]+1;
+        
+        if(max<y[s]){
+            
+            max=y[s];
+            index=s;
+        }
+        
+        
+    }
+    
+    
+        printf("%d",n-max);
+    
+    
+
+    
+
+
+        
+  
+    
+    
+
+    
+    
+}
